@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# React Reorder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple drag and drop functionality built in React.js using the JavaScript pointer events. Mainly it's made to reorder a list of items, images and so on.
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+## Example
+<pre>
+const BOXES = [
+    { id: '1', content: 'box 1' },
+    { id: '2', content: 'box 2' },
+    { id: '3', content: 'box 3' },
+    { id: '4', content: 'box 4' },
+    { id: '5', content: 'box 5' },
+    { id: '6', content: 'box 6' },
+    { id: '7', content: 'box 7' },
+    { id: '8', content: 'box 8' },
+    { id: '9', content: 'box 9' },
+    { id: '10', content: 'box 10' },
+    { id: '11', content: 'box 11' },
+    { id: '12', content: 'box 12' },
+];
 
-### `npm start`
+function App() {
+    const [boxes, setBoxes] = React.useState(BOXES);
+  
+    return (
+        &lt;ReactReorder
+            className="container"
+            itemClasses="box"
+            items={boxes}
+            itemFormatter={({ content }) => content}
+            getReorderedItemHandler={(reorderedItems) => setBoxes(reorderedItems)}
+        /&gt;
+    )
+}
+</pre>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Check out the [App.tsx](https://github.com/fady2019/react-reorder/blob/master/src/App.tsx) file for more examples
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br/>
 
-### `npm test`
+## Demo
+[See the live Demo](https://fady2019.github.io/react-reorder/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h3 align="center">Don’t hesitate to reach out to me for any optimization suggestions or any collaboration.</h3>
