@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-reorder/static/css/main.991cc18f.css",
+    "main.css": "/react-reorder/static/css/main.cdf8cc36.css",
     "main.js": "/react-reorder/static/js/main.1b069a45.js",
     "static/js/787.ff7282b4.chunk.js": "/react-reorder/static/js/787.ff7282b4.chunk.js",
     "static/media/img2.jpg": "/react-reorder/static/media/img2.c8e7a3dd1d43d2809b8b.jpg",
@@ -9,12 +9,12 @@
     "static/media/img5.jpg": "/react-reorder/static/media/img5.0cf39558cb19c3f77f61.jpg",
     "static/media/img1.jpg": "/react-reorder/static/media/img1.32ea6799d75fa1235d81.jpg",
     "index.html": "/react-reorder/index.html",
-    "main.991cc18f.css.map": "/react-reorder/static/css/main.991cc18f.css.map",
+    "main.cdf8cc36.css.map": "/react-reorder/static/css/main.cdf8cc36.css.map",
     "main.1b069a45.js.map": "/react-reorder/static/js/main.1b069a45.js.map",
     "787.ff7282b4.chunk.js.map": "/react-reorder/static/js/787.ff7282b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.991cc18f.css",
+    "static/css/main.cdf8cc36.css",
     "static/js/main.1b069a45.js"
   ]
 }
