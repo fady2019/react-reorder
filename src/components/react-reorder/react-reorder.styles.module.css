@@ -1,0 +1,44 @@
+.list__container {
+    list-style: none;
+    touch-action: none;
+    padding: 0;
+    overflow: auto;
+}
+
+.list__item {
+    cursor: grab;
+    border: 4px dashed transparent;
+}
+
+.list__item,
+.list__item * {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.list__item-copy {
+    opacity: 0.7;
+}
+
+.list__item--not-dragging {
+    border-color: rgb(36, 36, 36);
+}
+
+.list__item--visited {
+    border-color: rgb(11, 196, 42);
+}
+
+.list__item--dragging {
+    position: fixed;
+    cursor: grabbing;
+    top: var(--dragging-item-y) !important;
+    left: var(--dragging-item-x) !important;
+    width: var(--dragging-item-width) !important;
+    height: var(--dragging-item-height) !important;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
