@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-reorder/static/css/main.991cc18f.css",
+    "main.js": "/react-reorder/static/js/main.1b069a45.js",
+    "static/js/787.ff7282b4.chunk.js": "/react-reorder/static/js/787.ff7282b4.chunk.js",
+    "static/media/img2.jpg": "/react-reorder/static/media/img2.c8e7a3dd1d43d2809b8b.jpg",
+    "static/media/img4.jpg": "/react-reorder/static/media/img4.0bf10defdce4b16e9aff.jpg",
+    "static/media/img3.jpg": "/react-reorder/static/media/img3.c487a4ff91b66006813c.jpg",
+    "static/media/img5.jpg": "/react-reorder/static/media/img5.0cf39558cb19c3f77f61.jpg",
+    "static/media/img1.jpg": "/react-reorder/static/media/img1.32ea6799d75fa1235d81.jpg",
+    "index.html": "/react-reorder/index.html",
+    "main.991cc18f.css.map": "/react-reorder/static/css/main.991cc18f.css.map",
+    "main.1b069a45.js.map": "/react-reorder/static/js/main.1b069a45.js.map",
+    "787.ff7282b4.chunk.js.map": "/react-reorder/static/js/787.ff7282b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.991cc18f.css",
+    "static/js/main.1b069a45.js"
+  ]
+}
