@@ -1,12 +1,12 @@
 .list__container {
     list-style: none;
-    touch-action: none;
     padding: 0;
     overflow: auto;
 }
 
 .list__item {
     cursor: grab;
+    touch-action: none;
     border: 4px dashed transparent;
 }
 
