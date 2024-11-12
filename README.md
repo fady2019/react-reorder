@@ -2,8 +2,6 @@
 
 Simple drag and drop functionality built in React.js using the JavaScript pointer events. Mainly it's made to reorder a list of items, images and so on.
 
-<br/>
-
 ## Example
 ```React.js
 const BOXES = [
@@ -37,8 +35,6 @@ function App() {
 ```
 
 Check out the [App.tsx](https://github.com/fady2019/react-reorder/blob/master/src/App.tsx) file for more examples
-
-<br/>
 
 ## Demo
 [See the live Demo](https://fady2019.github.io/react-reorder/)
