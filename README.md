@@ -5,7 +5,7 @@ Simple drag and drop functionality built in React.js using the JavaScript pointe
 <br/>
 
 ## Example
-<pre>
+```React.js
 const BOXES = [
     { id: '1', content: 'box 1' },
     { id: '2', content: 'box 2' },
@@ -25,16 +25,16 @@ function App() {
     const [boxes, setBoxes] = React.useState(BOXES);
   
     return (
-        &lt;ReactReorder
+        <ReactReorder
             className="container"
             itemClasses="box"
             items={boxes}
             itemFormatter={({ content }) => content}
             getReorderedItemHandler={(reorderedItems) => setBoxes(reorderedItems)}
-        /&gt;
+        />;
     )
 }
-</pre>
+```
 
 Check out the [App.tsx](https://github.com/fady2019/react-reorder/blob/master/src/App.tsx) file for more examples
 
